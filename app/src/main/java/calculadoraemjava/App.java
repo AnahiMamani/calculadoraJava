@@ -8,14 +8,8 @@ public class App {
     public static void main(String[] args){
         Calculadora calc = new Calculadora();
         System.out.println(calc.somar(12, 6));
-        
-        Calculadora sub = new Calculadora();
-        System.out.println(sub.subtrair(12, 6));
-        
-        Calculadora mul = new Calculadora();
-        System.out.println(mul.multiplicar(12, 6));
-
-        Calculadora div = new Calculadora();
-        System.out.println(div.dividir(12, 6));
+        System.out.println(calc.subtrair(12, 6));
+        System.out.println(calc.multiplicar(12, 6));
+        System.out.println(calc.dividir(12, 6));
     }
 }
